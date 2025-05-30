@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Easter Egg</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #fff8f0;
+      color: #333;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #f4e1c1;
+      padding: 20px 40px;
+    }
+
+    header h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    header img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 70vh;
+      text-align: center;
+      animation: fadeIn 1s ease-out;
+    }
+
+    .content h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .instagram-button {
+      padding: 12px 24px;
+      background-color: #e1306c;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .instagram-button:hover {
+      background-color: #c41e59;
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f4e1c1;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>NMEIS BIRIYANI</h1>
+    <img src="https://i.imgur.com/k9jrEnM.png" alt="Logo" />
+  </header>
+
+  <div class="content">
+    <h2>Follow &lt;3</h2>
+    <a href="https://instagram.com/rizzfulrayyan" class="instagram-button" target="_blank">Instagram</a>
+  </div>
+
+  <footer>
+    © 2025–2026
+  </footer>
+
+</body>
+</html>
 
